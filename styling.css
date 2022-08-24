@@ -1,0 +1,185 @@
+.titlu {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #602020;
+  font-family: "Staatliches", cursive;
+  font-size: 24vh;
+}
+
+body {
+  margin: unset;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a::after {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.image-container {
+  background: black;
+  height: 530px;
+  width: 400px;
+  position: relative;
+  float: right;
+  margin: 5px;
+  border-radius: 10px;
+  top: -8.5vh;
+}
+
+.imagine {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.imagine img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.imagine::after {
+  content: "Beers";
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+.imagine:hover::after {
+  opacity: 0.5;
+}
+
+.text {
+  float: left;
+}
+
+.titlu1 {
+  margin-right: 60px;
+  margin-left: 60px;
+  border-radius: 30px;
+  background-color: #ddd;
+  text-align: center;
+  position: relative;
+  top: -6vh;
+}
+
+.titlu1 a {
+  position: relative;
+  color: #b1301e;
+  text-decoration: none;
+  font-family: Bebas Neue, cursive;
+}
+
+#contacte {
+  background-color: black;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Staatliches", cursive;
+  font-size: 3.5vh;
+}
+#contacte a {
+  margin-left: 55vh;
+  text-decoration: none;
+}
+
+#contacte a:hover {
+  color: #04aa6d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contacte a:visited {
+  color: #ddd;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#buton {
+  background-color: #602020;
+  text-align: center;
+  font-family: Staatliches, cursive;
+}
+
+#buton a {
+  text-decoration: none;
+  font-size: 5vh;
+}
+
+#buton a:visited {
+  color: #ffe680;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#buton a:hover {
+  color: #04aa6d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.map {
+  float: left;
+  display: flex;
+  height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: #602020;
+}
+
+.map iframe {
+  margin: 10px;
+}
+
+.titlucontact {
+  font-family: Bebas Neue, cursive;
+  font-size: 40px;
+}
+
+.butoanecontact {
+  float: right;
+  justify-content: righ;
+  font-family: Bebas Neue, cursive;
+  font-size: 3vh;
+  line-height: 80px;
+}
+.butoanecontact a:hover {
+  color: #ffe680;
+  background-color: transparent;
+  text-decoration: none;
+}
